@@ -18,3 +18,6 @@ multiplicacion(100,25)
 
 const resta1=(a,b)=> console.log(`La resta de ${a} menos ${b} es ${a-b}`)
 resta1(40,3)
+function multiplicacion1 (a,b){
+  console.log (`La multiplicacion de ${a} por ${b} es ${a*b}`)
+}
