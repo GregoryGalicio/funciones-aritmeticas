@@ -21,3 +21,9 @@ resta1(40,3)
 function multiplicacion1 (a,b){
   console.log (`La multiplicacion de ${a} por ${b} es ${a*b}`)
 }
+multiplicacion1(5,7)
+
+function division1(a,b){
+  console.log (`La division de ${a} entre ${b} es ${a/b}`)
+}
+division1(50,2);
