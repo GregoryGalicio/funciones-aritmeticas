@@ -27,3 +27,9 @@ function division1(a,b){
   console.log (`La division de ${a} entre ${b} es ${a/b}`)
 }
 division1(50,2);
+
+
+const getGreater = (a,b)=>{
+  const getNum=a>b? a:b;
+  logger (`El numero mayor es ${getNum}`)
+}
