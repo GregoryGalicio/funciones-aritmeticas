@@ -31,5 +31,6 @@ division1(50,2);
 
 const getGreater = (a,b)=>{
   const getNum=a>b? a:b;
-  logger (`El numero mayor es ${getNum}`)
+  logger (`El numero mayor es ${getNum}`);
+  return getNum;
 }
