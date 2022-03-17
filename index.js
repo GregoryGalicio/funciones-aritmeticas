@@ -31,6 +31,14 @@ division1(50,2);
 
 const getGreater = (a,b)=>{
   const getNum=a>b? a:b;
-  logger (`El numero mayor es ${getNum}`);
+  console.log(`El numero mayor es ${getNum}`);
   return getNum;
 }
+
+const getGreater1 = (a,b)=>{
+  const getNum=Math.max(a,b);
+  console.log(`El numero mayor es ${getNum}`);
+  return getNum;
+}
+
+getGreater1(2000,45)
