@@ -61,5 +61,13 @@ const getSquare= (n)=>{
 
 getSquare(144);
 getSquare(133);
+const perimetro=(a,b)=>{
+  const perimeter=(2*a)+(2*b);
+  console.log(`El perimetro del rectangulo de ancho ${a} y alto ${b} es ${perimeter}`);
+  return perimeter;
+}
+
+perimetro(3,5);
+perimetro(2,4);
 
 
