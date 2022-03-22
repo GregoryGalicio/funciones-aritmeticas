@@ -43,3 +43,23 @@ const getGreater1 = (a,b)=>{
 
 getGreater1(2000,2001)
 
+const minNumber =(a,b)=>{
+  const getNum=Math.min(a,b);
+  console.log(`The The smallest number between ${a}  and ${b} is ${getNum}`);
+  return getNum;
+}
+
+const getSquare= (n)=>{
+  const q= Math.sqrt(n);
+  /*if(typeof n==="string"){
+    if(parseFloat(n)==="NaN")
+    console.error("getSquare solo recibe un int");
+  }*/
+  console.log(`la raiz cuadrada de ${n} es ${q}`)
+  return q;
+}
+
+getSquare(144);
+getSquare(133);
+
+
