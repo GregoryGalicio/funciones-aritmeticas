@@ -48,3 +48,11 @@ const minNumber =(a,b)=>{
   console.log(`The The smallest number between ${a}  and ${b} is ${getNum}`);
   return getNum;
 }
+
+const perimetro=(a,b)=>{
+  const perimeter=(2*a)+(2*b);
+  console.log(`El perimetro del rectangulo de ancho ${a} y alto ${b} es ${perimeter}`);
+  return perimeter;
+}
+
+perimetro(3,5);
