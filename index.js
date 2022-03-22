@@ -43,8 +43,3 @@ const getGreater1 = (a,b)=>{
 
 getGreater1(2000,2001)
 
-const minNumber =(a,b)=>{
-  const getNum=Math.min(a,b);
-  console.log(`The The smallest number between ${a}  and ${b} is ${getNum}`);
-  return getNum;
-}
