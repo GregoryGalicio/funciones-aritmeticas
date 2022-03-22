@@ -56,3 +56,6 @@ const perimetro=(a,b)=>{
 }
 
 perimetro(3,5);
+perimetro(2,4);
+
+
